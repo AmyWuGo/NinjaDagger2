@@ -2,10 +2,9 @@ package fun4.nj.dagger2
 
 import javax.inject.Inject
 
-class Info @Inject constructor(square: Int) {
-    @Inject
-    constructor(h: Int, w: Int) : this(h * w)
+class Info @Inject constructor() {
 
-    val text = "square is $square"
+
+    val text = "square is square"
 
 }
